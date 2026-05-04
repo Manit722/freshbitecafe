@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshBite Cafe | Lucknow</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,500&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="preloader-leaf">🌿</div>
+            <p>FreshBite Cafe</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-icon">🌿</span>
+                <span class="logo-text">Fresh<span class="logo-highlight">Bite</span></span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="#reservation" class="btn btn-nav">Reserve Table</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span>🌟 Newly Opened in Lucknow</span>
+            </div>
+            <h1 class="hero-title">
+                Fresh Flavors,<br>
+                <span class="hero-title-accent">Every Single Bite</span>
+            </h1>
+            <p class="hero-subtitle">
+                Experience the finest cafe culture in the heart of Lucknow — where every dish is crafted with love and the freshest ingredients.
+            </p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">Explore Our Menu <i class="fas fa-arrow-right"></i></a>
+                <a href="#reservation" class="btn btn-outline">Book a Table <i class="far fa-calendar-alt"></i></a>
+            </div>
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Dishes</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="stat-number">4.8</span>
+                    <span class="stat-label">Rating</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="stat-number">2K+</span>
+                    <span class="stat-label">Happy Guests</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Features Strip -->
+    <section class="features-strip">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fas fa-leaf"></i></div>
+                    <h4>100% Fresh Ingredients</h4>
+                    <p>Sourced daily from local farms</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fas fa-mug-hot"></i></div>
+                    <h4>Artisan Coffee</h4>
+                    <p>Single-origin, hand-brewed</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fas fa-wifi"></i></div>
+                    <h4>Free Wi-Fi</h4>
+                    <p>Work-friendly atmosphere</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fas fa-clock"></i></div>
+                    <h4>Open 8AM–11PM</h4>
+                    <p>7 days a week</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image-wrapper">
+                    <div class="about-image-main">
+                        <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600&h=750&fit=crop" alt="FreshBite Cafe Interior" loading="lazy">
+                    </div>
+                    <div class="about-image-float">
+                        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=300&h=300&fit=crop" alt="Coffee at FreshBite" loading="lazy">
+                    </div>
+                    <div class="about-badge">
+                        <span>Since 2024</span>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <span class="section-tag">Our Story</span>
+                    <h2 class="section-title">The Taste of <span class="text-accent">Lucknow</span>, Reimagined</h2>
+                    <p class="about-text">
+                        Nestled in the vibrant streets of Lucknow, <strong>FreshBite Cafe</strong> was born from a simple dream — to create a space where great food meets warm hospitality. Our chefs blend traditional Awadhi flavors with contemporary cafe culture, crafting dishes that surprise and delight.
+                    </p>
+                    <p class="about-text">
+                        From our signature <em>Kesar Chai Latte</em> to mouthwatering <em>Galawat Croissants</em>, every item on our menu tells a story of passion, freshness, and innovation.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Locally sourced ingredients</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Hygienic & cozy ambiance</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Pet-friendly outdoor seating</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Live acoustic weekends</span>
+                        </div>
+                    </div>
+                    <a href="#menu" class="btn btn-primary">Discover Our Menu <i class="fas fa-utensils"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Menu</span>
+                <h2 class="section-title">Crafted with <span class="text-accent">Love</span></h2>
+                <p class="section-subtitle">Every dish is a masterpiece waiting to be savored</p>
+            </div>
+            <div class="menu-tabs">
+                <button class="menu-tab active" data-category="all">All Items</button>
+                <button class="menu-tab" data-category="beverages">☕ Beverages</button>
+                <button class="menu-tab" data-category="snacks">🥪 Snacks</button>
+                <button class="menu-tab" data-category="mains">🍽️ Mains</button>
+                <button class="menu-tab" data-category="desserts">🍰 Desserts</button>
+            </div>
+            <div class="menu-grid" id="menuGrid">
+                <!-- Items populated by JS -->
+            </div>
+            <div class="menu-cta">
+                <a href="#" class="btn btn-outline">Download Full Menu <i class="fas fa-download"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Gallery</span>
+                <h2 class="section-title">Inside <span class="text-accent">FreshBite</span></h2>
+                <p class="section-subtitle">A glimpse into our cozy world</p>
+            </div>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item tall">
+                <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500&h=700&fit=crop" alt="Cafe Interior" loading="lazy">
+                <div class="gallery-overlay"><span>Our Cozy Interior</span></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=500&h=350&fit=crop" alt="Latte Art" loading="lazy">
+                <div class="gallery-overlay"><span>Artisan Latte Art</span></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?w=500&h=350&fit=crop" alt="Desserts" loading="lazy">
+                <div class="gallery-overlay"><span>Decadent Desserts</span></div>
+            </div>
+            <div class="gallery-item wide">
+                <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=700&h=400&fit=crop" alt="Outdoor Seating" loading="lazy">
+                <div class="gallery-overlay"><span>Outdoor Garden Seating</span></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1559329007-40df8a9345d8?w=500&h=350&fit=crop" alt="Fresh Bakery" loading="lazy">
+                <div class="gallery-overlay"><span>Freshly Baked Goods</span></div>
+            </div>
+            <div class="gallery-item tall">
+                <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=500&h=700&fit=crop" alt="Cafe Vibes" loading="lazy">
+                <div class="gallery-overlay"><span>Weekend Live Music</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Testimonials</span>
+                <h2 class="section-title">What Our <span class="text-accent">Guests</span> Say</h2>
+                <p class="section-subtitle">Real reviews from real food lovers in Lucknow</p>
+            </div>
+            <div class="testimonials-slider" id="testimonialsSlider">
+                <div class="testimonial-card active">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"The Kesar Chai Latte here is absolutely divine! FreshBite has become my go-to spot for evening hangouts. The ambiance is perfect for both work and casual meetups."</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&h=80&fit=crop" alt="Priya Sharma" loading="lazy">
+                        <div>
+                            <strong>Priya Sharma</strong>
+                            <span>Food Blogger, Lucknow</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Finally, a cafe in Lucknow that understands quality! Their Galawat Croissant is a genius fusion. Great service, beautiful interiors — highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop" alt="Rahul Verma">
+                        <div>
+                            <strong>Rahul Verma</strong>
+                            <span>Regular Customer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"I hosted a small birthday party here and the team went above and beyond. The desserts were a hit, and the outdoor garden seating made it extra special!"</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop" alt="Ananya Gupta">
+                        <div>
+                            <strong>Ananya Gupta</strong>
+                            <span>Event Planner</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-dots" id="testimonialDots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section class="reservation" id="reservation">
+        <div class="container">
+            <div class="reservation-grid">
+                <div class="reservation-content">
+                    <span class="section-tag">Reservations</span>
+                    <h2 class="section-title">Book Your <span class="text-accent">Table</span></h2>
+                    <p class="reservation-text">
+                        Reserve your spot at FreshBite Cafe and enjoy an unforgettable dining experience. Walk-ins are welcome, but we recommend booking ahead for weekends.
+                    </p>
+                    <div class="reservation-info">
+                        <div class="info-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <strong>Call Us</strong>
+                                <span>+91 98765 43210</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Location</strong>
+                                <span>Hazratganj, Lucknow, UP 226001</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>Email</strong>
+                                <span>hello@freshbitecafe.in</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reservation-form-wrapper">
+                    <form class="reservation-form" id="reservationForm">
+                        <h3>Reserve a Table</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" placeholder="Enter your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" placeholder="+91" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date">Date</label>
+                                <input type="date" id="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="time">Time</label>
+                                <select id="time" required>
+                                    <option value="">Select time</option>
+                                    <option value="08:00">8:00 AM</option>
+                                    <option value="09:00">9:00 AM</option>
+                                    <option value="10:00">10:00 AM</option>
+                                    <option value="11:00">11:00 AM</option>
+                                    <option value="12:00">12:00 PM</option>
+                                    <option value="13:00">1:00 PM</option>
+                                    <option value="14:00">2:00 PM</option>
+                                    <option value="15:00">3:00 PM</option>
+                                    <option value="16:00">4:00 PM</option>
+                                    <option value="17:00">5:00 PM</option>
+                                    <option value="18:00">6:00 PM</option>
+                                    <option value="19:00">7:00 PM</option>
+                                    <option value="20:00">8:00 PM</option>
+                                    <option value="21:00">9:00 PM</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="guests">Number of Guests</label>
+                            <select id="guests" required>
+                                <option value="">Select guests</option>
+                                <option value="1">1 Guest</option>
+                                <option value="2">2 Guests</option>
+                                <option value="3">3 Guests</option>
+                                <option value="4">4 Guests</option>
+                                <option value="5">5 Guests</option>
+                                <option value="6">6+ Guests</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="special">Special Requests (Optional)</label>
+                            <textarea id="special" rows="3" placeholder="Any special occasion or dietary needs?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Confirm Reservation <i class="fas fa-check"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / Location Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Find Us</span>
+                <h2 class="section-title">Come <span class="text-accent">Visit</span> Us</h2>
+                <p class="section-subtitle">We're right in the heart of Lucknow, waiting to serve you</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14237.624493664!2d80.936114!3d26.846694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd21e8b3b9e9%3A0x9c4e8c1e0c3b3e1b!2sHazratganj%2C%20Lucknow%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1700000000000" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="FreshBite Cafe Location"></iframe>
+                </div>
+                <div class="contact-details">
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h4>Address</h4>
+                        <p>42, MG Road, Hazratganj<br>Lucknow, Uttar Pradesh 226001</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-clock"></i></div>
+                        <h4>Opening Hours</h4>
+                        <p>
+                            <strong>Monday – Friday:</strong> 8:00 AM – 11:00 PM<br>
+                            <strong>Saturday – Sunday:</strong> 8:00 AM – 12:00 AM
+                        </p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-parking"></i></div>
+                        <h4>Parking</h4>
+                        <p>Free parking available for guests. Valet service on weekends.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay in the <span class="text-accent">Loop</span></h2>
+                <p>Get exclusive offers, new menu alerts, and event invites delivered to your inbox.</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#home" class="footer-logo">
+                        <span>🌿</span> Fresh<span class="logo-highlight">Bite</span>
+                    </a>
+                    <p>Lucknow's favorite cafe destination. Fresh ingredients, bold flavors, and a whole lot of love — that's the FreshBite promise.</p>
+                    <div class="footer-socials">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                        <a href="#" aria-label="Zomato"><i class="fas fa-utensils"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Our Specialties</h4>
+                    <ul>
+                        <li><a href="#">Kesar Chai Latte</a></li>
+                        <li><a href="#">Galawat Croissant</a></li>
+                        <li><a href="#">Lucknowi Biryani Bowl</a></li>
+                        <li><a href="#">Mango Lassi Cheesecake</a></li>
+                        <li><a href="#">Artisan Sourdough</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Catering</a></li>
+                        <li><a href="#">Feedback</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 <strong>FreshBite Cafe</strong>, Lucknow. All rights reserved. | Made with ❤️ in India</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <span class="toast-icon">✅</span>
+        <span class="toast-message" id="toastMessage">Success!</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
